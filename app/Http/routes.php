@@ -36,7 +36,15 @@ Route::controllers([
 ]);
 Route::resource('books','BookController');
 
+Route::get('about', function()
+{
+    return View::make('about');
+});
 
+Route::get('contact', function()
+{
+    return View::make('contact');
+});
 
 Route::group(['middleware' => ['web']], function () {
     //

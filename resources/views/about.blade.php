@@ -3,12 +3,12 @@
 <head>
 <title>Secretlab | About</title>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<link href="style.css" rel="stylesheet" type="text/css" />
-<script type="text/javascript" src="js/jquery.js"></script>
-<script type="text/javascript" src="js/cufon-yui.js"></script>
-<script type="text/javascript" src="js/arial.js"></script>
-<script type="text/javascript" src="js/cuf_run.js"></script>
-<script type="text/javascript" src="js/radius.js"></script>
+<link href="../resources/assets/css/style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="../resources/assets/js/jquery.js"></script>
+<script type="text/javascript" src="../resources/assets/js/cufon-yui.js"></script>
+<script type="text/javascript" src="../resources/assets/js/arial.js"></script>
+<script type="text/javascript" src="../resources/assets/js/cuf_run.js"></script>
+<script type="text/javascript" src="../resources/assets/js/radius.js"></script>
 </head>
 <body>
 <div class="main">
@@ -30,13 +30,13 @@
           <form id="form" name="form" method="post" action="#">
             <span>
             <input name="q" type="text" class="keywords" id="textfield" maxlength="50" value="Search..." />
-            <input name="b" type="image" src="images/search.gif" class="button" />
+            <input name="b" type="image" src="../resources/assets/images/search.gif" class="button" />
             </span>
           </form>
         </div>
       </div>
       <div class="clr"></div>
-      <img src="images/main_img.jpg" alt="" width="972" height="313" style="padding:25px 0;" />
+      <img src="../resources/assets/images/main_img.jpg" alt="" width="972" height="313" style="padding:25px 0;" />
       <div class="clr"></div>
     </div>
   </div>
@@ -94,7 +94,7 @@
         <div class="fbg_resize">
           <div class="col c1">
             <h2><span>Image Gallery</span></h2>
-            <a href="#"><img src="images/gallery_1.jpg" width="58" height="58" alt="" /></a> <a href="#"><img src="images/gallery_2.jpg" width="58" height="58" alt="" /></a> <a href="#"><img src="images/gallery_3.jpg" width="58" height="58" alt="" /></a> <a href="#"><img src="images/gallery_4.jpg" width="58" height="58" alt="" /></a> <a href="#"><img src="images/gallery_5.jpg" width="58" height="58" alt="" /></a> <a href="#"><img src="images/gallery_6.jpg" width="58" height="58" alt="" /></a> </div>
+            <a href="#"><img src="../resources/assets/images/gallery_1.jpg" width="58" height="58" alt="" /></a> <a href="#"><img src="../resources/assets/images/gallery_2.jpg" width="58" height="58" alt="" /></a> <a href="#"><img src="../resources/assets/images/gallery_3.jpg" width="58" height="58" alt="" /></a> <a href="#"><img src="../resources/assets/images/gallery_4.jpg" width="58" height="58" alt="" /></a> <a href="#"><img src="../resources/assets/images/gallery_5.jpg" width="58" height="58" alt="" /></a> <a href="#"><img src="../resources/assets/images/gallery_6.jpg" width="58" height="58" alt="" /></a> </div>
           <div class="col c2">
             <h2><span>Lorem Ipsum</span></h2>
             <p>Lorem ipsum dolor<br />

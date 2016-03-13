@@ -1,14 +1,14 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<title>Secretlab | Support</title>
+<title>Secretlab | Contact</title>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<link href="style.css" rel="stylesheet" type="text/css" />
-<script type="text/javascript" src="js/jquery.js"></script>
-<script type="text/javascript" src="js/cufon-yui.js"></script>
-<script type="text/javascript" src="js/arial.js"></script>
-<script type="text/javascript" src="js/cuf_run.js"></script>
-<script type="text/javascript" src="js/radius.js"></script>
+<link href="../resources/assets/css/style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="../resources/assets/js/jquery.js"></script>
+<script type="text/javascript" src="../resources/assets/js/cufon-yui.js"></script>
+<script type="text/javascript" src="../resources/assets/js/arial.js"></script>
+<script type="text/javascript" src="../resources/assets/js/cuf_run.js"></script>
+<script type="text/javascript" src="../resources/assets/js/radius.js"></script>
 </head>
 <body>
 <div class="main">
@@ -21,22 +21,22 @@
       <div class="menu_nav">
         <ul>
           <li><a href="index.html">Home</a></li>
-          <li class="active"><a href="support.html">Support</a></li>
+          <li><a href="support.html">Support</a></li>
           <li><a href="about.html">About Us</a></li>
           <li><a href="blog.html">Blog</a></li>
-          <li><a href="contact.html">Contact Us</a></li>
+          <li class="active"><a href="contact.html">Contact Us</a></li>
         </ul>
         <div class="search">
           <form id="form" name="form" method="post" action="#">
             <span>
             <input name="q" type="text" class="keywords" id="textfield" maxlength="50" value="Search..." />
-            <input name="b" type="image" src="images/search.gif" class="button" />
+            <input name="b" type="image" src="../resources/assets/images/search.gif" class="button" />
             </span>
           </form>
         </div>
       </div>
       <div class="clr"></div>
-      <img src="images/main_img.jpg" alt="" width="972" height="313" style="padding:25px 0;" />
+      <img src="../resources/assets/images/main_img.jpg" alt="" width="972" height="313" style="padding:25px 0;" />
       <div class="clr"></div>
     </div>
   </div>
@@ -45,20 +45,37 @@
     <div class="content_resize">
       <div class="mainbar">
         <div class="article">
-          <h2><span>Support to</span> Company Name</h2>
+          <h2><span>Contact</span></h2>
           <div class="clr"></div>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Suspendisse nulla ligula, blandit ultricies aliquet ac, lobortis in massa. Nunc dolor sem, tincidunt vitae viverra in, egestas sed lacus.</strong> Etiam in ullamcorper felis. Nulla cursus feugiat leo, ut dictum metus semper a. Vivamus euismod, arcu gravida sollicitudin vestibulum, quam sem tempus quam, quis ullamcorper erat nunc in massa. Donec aliquet ante non diam sollicitudin quis auctor velit sodales. Morbi neque est, posuere at fringilla non, mollis nec nibh. Sed commodo tortor nec sem tincidunt mattis. Nam convallis aliquam nibh eu luctus. Nunc vel tincidunt lacus. Suspendisse sit amet pulvinar ante.</p>
-          <p>Phasellus diam justo, laoreet vel vulputate eu, congue vel est. Maecenas eros libero, sollicitudin a vulputate fermentum, ultrices vel lacus. Nam in metus non augue fermentum consequat ultrices ac enim. Integer aliquam urna non diam aliquam eget hendrerit sem molestie.</p>
-          <p><strong>Lorem ipsum dolor sit amet</strong></p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eget bibendum tellus. Nunc vel imperdiet tellus. Mauris ornare aliquam urna, accumsan bibendum eros auctor ac.</p>
-          <ul class="sb_menu">
-            <li><a href="#"><strong>Lorem ipsum</strong></a></li>
-            <li><a href="#"><strong>Lorem ipsum</strong></a></li>
-            <li><a href="#"><strong>Lorem ipsum</strong></a></li>
-            <li><a href="#"><strong>Lorem ipsum</strong></a></li>
-            <li><a href="#"><strong>Lorem ipsum</strong></a></li>
-            <li><a href="#"><strong>Lorem ipsum</strong></a></li>
-          </ul>
+          <p>You can find more of my free template designs at my website. For premium commercial designs, you can check out DreamTemplate.com.</p>
+        </div>
+        <div class="article">
+          <h2><span>Send us</span> mail</h2>
+          <div class="clr"></div>
+          <form action="#" method="post" id="sendemail">
+            <ol>
+              <li>
+                <label for="name">Name (required)</label>
+                <input id="name" name="name" class="text" />
+              </li>
+              <li>
+                <label for="email">Email Address (required)</label>
+                <input id="email" name="email" class="text" />
+              </li>
+              <li>
+                <label for="website">Website</label>
+                <input id="website" name="website" class="text" />
+              </li>
+              <li>
+                <label for="message">Your Message</label>
+                <textarea id="message" name="message" rows="8" cols="50"></textarea>
+              </li>
+              <li>
+                <input type="image" name="imageField" id="imageField" src="../resources/assets/images/submit.gif" class="send" />
+                <div class="clr"></div>
+              </li>
+            </ol>
+          </form>
         </div>
       </div>
       <div class="sidebar">
@@ -97,7 +114,7 @@
         <div class="fbg_resize">
           <div class="col c1">
             <h2><span>Image Gallery</span></h2>
-            <a href="#"><img src="images/gallery_1.jpg" width="58" height="58" alt="" /></a> <a href="#"><img src="images/gallery_2.jpg" width="58" height="58" alt="" /></a> <a href="#"><img src="images/gallery_3.jpg" width="58" height="58" alt="" /></a> <a href="#"><img src="images/gallery_4.jpg" width="58" height="58" alt="" /></a> <a href="#"><img src="images/gallery_5.jpg" width="58" height="58" alt="" /></a> <a href="#"><img src="images/gallery_6.jpg" width="58" height="58" alt="" /></a> </div>
+            <a href="#"><img src="../resources/assets/images/gallery_1.jpg" width="58" height="58" alt="" /></a> <a href="#"><img src="../resources/assets/images/gallery_2.jpg" width="58" height="58" alt="" /></a> <a href="#"><img src="../resources/assets/images/gallery_3.jpg" width="58" height="58" alt="" /></a> <a href="#"><img src="../resources/assets/images/gallery_4.jpg" width="58" height="58" alt="" /></a> <a href="#"><img src="../resources/assets/images/gallery_5.jpg" width="58" height="58" alt="" /></a> <a href="#"><img src="../resources/assets/images/gallery_6.jpg" width="58" height="58" alt="" /></a> </div>
           <div class="col c2">
             <h2><span>Lorem Ipsum</span></h2>
             <p>Lorem ipsum dolor<br />

@@ -20,11 +20,11 @@
       <div class="clr"></div>
       <div class="menu_nav">
         <ul>
-          <li class="active"><a href="index.html">Home</a></li>
+          <li class="active"><a href="{{url('/')}}">Home</a></li>
           <li><a href="{{url('/books')}}">Books</a></li>
-          <li><a href="{{url('/books/about')}}">About Us</a></li>
           <li><a href="{{url('/books')}}">PDF books</a></li>
-          <li><a href="{{url('/books/contact')}}">Contact Us</a></li>
+          <li><a href="{{ URL::to('about') }}">About Us</a></li>        
+          <li><a href="{{ URL::to('contact') }}">Contact Us</a></li>
         </ul>
         <div class="search">
           <form id="form" name="form" method="post" action="#">
